@@ -55,6 +55,9 @@ article {
   color: #141212;
   padding: 10px;
 }
+article::first-letter {
+  font-size: 150%;
+}
 article:first-child {
   background-color: white;
 }
